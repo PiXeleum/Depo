@@ -1,0 +1,47 @@
+
+PiXelum@MSI MINGW64 /
+$ cd
+
+PiXelum@MSI MINGW64 ~
+$ pwd
+/c/Users/jeffr
+
+PiXelum@MSI MINGW64 ~
+$ ls
+'3D Objects'/
+ AppData/
+'Application Data'@
+'Cisco Packet Tracer 7.3.0'/
+ Contacts/
+ Cookies@
+ Documents/
+ Downloads/
+ Favorites/
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+'Menu Démarrer'@
+'Mes documents'@
+ MicrosoftEdgeBackups/
+ Modèles@
+ Music/
+ NTUSER.DAT
+ NTUSER.DAT{d8d2647b-61a6-11eb-bf2e-f5efb04b33bd}.TM.blf
+ NTUSER.DAT{d8d2647b-61a6-11eb-bf2e-f5efb04b33bd}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{d8d2647b-61a6-11eb-bf2e-f5efb04b33bd}.TMContainer00000000000000000002.regtrans-ms
+ OneDrive/
+ Recent@
+ Roaming/
+'Saved Games'/
+ Searches/
+ SendTo@
+ Videos/
+"Voisinage d'impression"@
+'Voisinage réseau'@
+ ansel/
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+
+PiXelum@MSI MINGW64 ~
+$

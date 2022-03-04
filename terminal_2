@@ -1,0 +1,63 @@
+/fictional
+./fictional/arrakis.jpeg
+./fictional/coruscant.jpeg
+./fictional/cybertron.jpeg
+./inhabited
+./inhabited/arrakis.jpeg
+./inhabited/coruscant.jpeg
+./inhabited/cybertron.jpeg
+./inhabited/earth.jpeg
+./real
+./real/dwarf-planets
+./real/dwarf-planets/pluto.jpeg
+./real/gas-giants
+./real/gas-giants/jupiter.jpeg
+./real/gas-giants/neptune.jpeg
+./real/gas-giants/saturn.jpeg
+./real/gas-giants/uranus.jpeg
+./real/terrestrial
+./real/terrestrial/earth.jpeg
+./real/terrestrial/mars.jpeg
+./real/terrestrial/mercury.jpeg
+./real/terrestrial/venus.jpeg
+
+sudo apt-get install -y curl unzip
+cd
+curl -L -o planets.zip "https://github.com/WildCodeSchool/quests-resources/blob/master/terminal/planets.zip?raw=true"
+unzip planets.zip
+mkdir Planets
+cd Planets
+mkdir -p real fictional inhabited
+cd real
+mkdir -p terrestrial gas-giants dwarf-planets
+cd ..
+cp arrakis.jpeg coruscant.jpeg fictional/
+cp jupiter.jpeg neptune.jpeg saturn.jpeg real/gas-giants/
+cp earth.jpeg inhabited/
+mv uranus.jpeg real/gas-giants/
+mv earth.jpeg mars.jpeg mercury.jpeg venus.jpeg real/terrestrial/
+mv pluto.jpeg real/dwarf-planets/
+mv cybertron.jpeg fictional/
+cd real
+rm -r dwarf-planets/
+
+/fictional
+./fictional/arrakis.jpeg
+./fictional/coruscant.jpeg
+./fictional/cybertron.jpeg
+./inhabited
+./inhabited/arrakis.jpeg
+./inhabited/coruscant.jpeg
+./inhabited/cybertron.jpeg
+./inhabited/earth.jpeg
+./real
+./real/gas-giants
+./real/gas-giants/jupiter.jpeg
+./real/gas-giants/neptune.jpeg
+./real/gas-giants/saturn.jpeg
+./real/gas-giants/uranus.jpeg
+./real/terrestrial
+./real/terrestrial/earth.jpeg
+./real/terrestrial/mars.jpeg
+./real/terrestrial/mercury.jpeg
+./real/terrestrial/venus.jpeg
